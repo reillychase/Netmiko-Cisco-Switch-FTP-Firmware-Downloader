@@ -19,7 +19,7 @@ Overview:
 - Finally it will add a row to the 'PrettyTable'
 - When all threads complete, the 'PrettyTable' will be output. Example below:
 
-
+'''
 +----------------+-------+------------------+------------------+--------------+---------+--------------+--------------------+
 |    Hostname    | Model | Software cleaned | Already upgraded | Already FTPd |  FTP    | BIN verified |     Enough space   |
 +----------------+-------+------------------+------------------+--------------+---------+--------------+--------------------+
@@ -30,3 +30,4 @@ Overview:
 |    switchsf    |  3750 |       N/A        |        No        |      No      | Failed  |     No       |         Bad        |
 |    switch2d    |  3750 |       N/A        |        No        |     Yes      |  N/A    |     N/A      |         Good       |
 +----------------+-------+------------------+------------------+--------------+--------+--------------+--------------------+
+'''
