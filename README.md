@@ -23,8 +23,8 @@ Overview:
 +----------------+-------+------------------+------------------+--------------+---------+--------------+--------------------+
 |    Hostname    | Model | Software cleaned | Already upgraded | Already FTPd |  FTP    | BIN verified |     Enough space   |
 +----------------+-------+------------------+------------------+--------------+---------+--------------+--------------------+
-|  switch1main   |  3850 |     Unknown      |       Yes        |      No      |  N/A    |     N/A      |         Good       |
-|    switch2f    |  3850 |     Unknown      |       Yes        |      No      |  N/A    |     N/A      |         Good       |
+|  switch1main   |  3850 |       No         |       Yes        |      No      |  N/A    |     N/A      |         Good       |
+|    switch2f    |  3850 |       No         |       Yes        |      No      |  N/A    |     N/A      |         Good       |
 |    switch3s    |  3750 |       N/A        |       Yes        |      No      |  N/A    |     N/A      |         Good       |
 |   switch9xds   |  3750 |       N/A        |        No        |      No      | Success |     Yes      |         Good       |
 |    switchsf    |  3750 |       N/A        |        No        |      No      | Failed  |     No       |         Bad        |
