@@ -1,7 +1,7 @@
 # Netmiko-Cisco-Switch-FTP-Firmware-Downloader
 Netmiko Cisco Switch FTP Firmware Downloader
 
-This script was written to prep ~100 Cisco 37XX and 38XX switches for a firmware upgrade. It uses Netmiko Python library for handling SSH sessions, and PrettyTables for displaying output. It is also multi-threaded, so it connects to all the switches simultaneously.
+This script was written to prep ~70 Cisco 37XX and 38XX switches for a firmware upgrade. It uses Netmiko Python library for handling SSH sessions, and PrettyTables for displaying output. It is also multi-threaded, so it connects to all the switches simultaneously.
 
 Overview:
 - Read all hostnames from switch_list.txt, save as a list
