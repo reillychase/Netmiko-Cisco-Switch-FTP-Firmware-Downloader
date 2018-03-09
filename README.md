@@ -4,7 +4,15 @@ Netmiko Cisco Switch FTP Firmware Downloader
 This script was written to prep ~70 Cisco 37XX and 38XX switches for a firmware upgrade. It uses Netmiko Python library for handling SSH sessions, and PrettyTables for displaying output. It is also multi-threaded, so it connects to all the switches simultaneously.
 
 Overview:
-- Read all hostnames from switch_list.txt, save as a list
+- Read all hostnames from switch_list.txt, save as a list (Or even better you could grab all the IPs directly from Solarwinds Orion with this command:
+
+import orionsdk
+
+swis = orionsdk.SwisClient("solarwinds.yoursite.net", "username", "password")
+devices = swis.query('SELECT IPAddress, DNS, SysName, Vendor, MachineType, Description, Status FROM Orion.Nodes')
+print(devices)
+
+)
 - For each hostname in the list, start a new thread, passing hostname to it
 - Each thread connects to a switch using Netmiko library
 - Uses 'USER' and 'PASSWORD' variables at the top to login to switch
